@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Inter;
+  src: url("../src/fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@import "tailwindcss";
+
+body {
+  background: #f5f6fa;
+}
+
+@theme {
+  --color-bg-primary: #fff;
+}
+
+.container {
+  width: 100%;
+  min-width: 1140px;
+}
